@@ -40,11 +40,23 @@ Early and accurate diagnosis of brain tumors is critical for effective treatment
 
 ---
 
-## 🖼 Sample Visuals
+## 📊 Model Architecture
 
-| Input MRI Image | Grad-CAM Heatmap |
-|-----------------|------------------|
-| ![MRI](assets/sample_mri.jpg) | ![GradCAM](assets/sample_gradcam.jpg) |
+The model uses **Xception** as a feature extractor followed by custom dense layers.
+
+![Model Architecture](assets/Model.png)
+
+---
+
+## 📈 Training Results
+
+The model achieved high performance across all metrics:
+
+- **Training Accuracy:** 99%
+- **Validation Accuracy:** 98.5%
+- **Precision & Recall:** Above 98% consistently
+
+![Training Metrics](assets/Result.png)
 
 ---
 
