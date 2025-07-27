@@ -1,6 +1,6 @@
 # 🧠 Brain Tumor Detection with Deep Learning and Grad-CAM
 
-This project presents an **end-to-end machine learning pipeline** for detecting brain tumors in MRI scans using deep learning. It combines a **CNN with a pretrained Xception backbone** for image classification, integrates **Grad-CAM** to visualize what the model "sees", and is deployed via a **Streamlit app** for real-time clinical use.
+This project presents an end-to-end deep learning solution for brain tumor detection using MRI scans using deep learning. It combines a **CNN with a pretrained Xception backbone** for image classification, integrates **Grad-CAM** to visualize what the model "sees", and is deployed via a **Streamlit app** for real-time clinical use.
 
 ---
 
